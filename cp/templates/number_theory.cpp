@@ -57,7 +57,7 @@ namespace number_theory{
 	  	return true;
 	}
 
-	ll pw(ll a, ll p)
+	ll pw(ll a, ll p=mod-2)
 	{ // mod_inv == pw(a,mod-2)
 		ll res = 1;
         	while(p){
